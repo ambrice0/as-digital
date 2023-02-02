@@ -1,0 +1,40 @@
+.testimonials {
+    position: relative;
+    padding: 100px;
+    background: #12222d;
+    text-align: center;
+}
+
+.testimonials .container {
+    @extend %flex-space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.testimonials .container .contentBx {
+    background: $white;
+    padding: 60px 50px;
+    width: 550px;
+    @extend %flex-center;
+    text-align: left;
+    border-radius: 10px;
+    border-top: 5px solid #3f8ffc;
+
+    &:hover {
+        border-top: none;
+        border-bottom: 5px solid #3f8ffc;
+        border-radius: 10px;
+        transition: .3s;
+    }
+}
+
+.testimonials .container .contentBx p {
+    font-style: italic;
+}
+
+.testimonials .container .contentBx h3 {
+    width: 100%;
+    text-align: end;
+    font-weight: 700;
+    color: #3f8ffc;
+}

@@ -1,0 +1,20 @@
+.technology {
+    background: #3f8ffc;
+    width: 100%;
+    padding: 100px;
+    padding-top: 300px;
+    margin-top: -300px;
+    @extend %flex-space-between;
+}
+
+.technology .contentBx {
+    min-width: 800px;
+}
+
+.technology .imgBx {
+    min-width: 250px;
+}
+
+.technology .imgBx img {
+    width: 100%;
+}

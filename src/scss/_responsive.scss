@@ -1,0 +1,164 @@
+@media (max-width: 992px) {
+    .banner {
+        padding: 50px;
+    }
+
+    .banner header {
+        padding: 20px 50px;
+    }
+
+    .banner .content h2 {
+        font-size: 36px;
+    }
+
+    .banner .content p {
+        font-size: 16px;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about .contentBx,
+    .about .imgBx {
+        width: 100%;
+        padding: 50px;
+        min-height: 400px;
+        text-align: center;
+    }
+
+    .services {
+        padding: 50px;
+    }
+
+    .services .container {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .services .container .serviceBx {
+        margin: 20px;
+        width: 300px;
+        height: 350px;
+    }
+
+    .technology {
+        padding: 50px;
+        padding-top: 300px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .technology .contentBx {
+        min-width: 80px;
+    }
+
+    .technology .imgBx {
+        margin-top: 40px;
+        max-width: 250px;
+    }
+
+    .client {
+        padding: 50px;
+    }
+
+    .client .imgBx {
+        justify-content: center;
+    }
+
+    .testimonials {
+        padding: 50px;
+    }
+
+    .testimonials .contentBx {
+        padding: 60px 40px;
+        max-width: 550px;
+        margin-bottom: 40px;
+    }
+
+    .testimonials .contentBx:last-child {
+        margin-bottom: 0;
+    }
+
+    .contact {
+        padding: 50px;
+    }
+
+    .footer {
+        padding: 20px 30px;
+        flex-direction: column-reverse;
+        text-align: center;
+
+        p {
+            font-size: 12px;
+        }
+    }
+
+    .footer ul {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .banner {
+        padding: 10px;
+    }
+
+    .banner header {
+        padding: 10px 25px;
+    }
+
+    /* .banner .content h2 {
+        font-size: 20px;
+    }
+
+    .banner .content p {
+        font-size: 15px;
+    } */
+
+    .about .contentBx,
+    .about .imgBx {
+        padding: 30px;
+    }
+
+    .services {
+        padding: 20px;
+    }
+
+    .services .container .serviceBx {
+        margin: 20px;
+        width: 300px;
+        height: 300px;
+    }
+    .technology {
+        padding: 30px;
+        padding-top: 200px;
+        margin-top: -200px;
+    }
+
+    .client {
+        padding: 30px;
+    }
+
+    .testimonials {
+        padding: 30px;
+    }
+
+    .testimonials .contentBx {
+        padding: 30px 20px;
+    }
+
+    .contact {
+        padding: 30px;
+    }
+
+    .footer {
+        padding: 20px 30px;
+        flex-direction: column-reverse;
+        text-align: center;
+
+        p {
+            font-size: 12px;
+        }
+    }
+}

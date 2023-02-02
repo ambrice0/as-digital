@@ -1,0 +1,43 @@
+.services {
+    background: #12222d;
+    padding: 100px;
+    text-align: center;
+}
+
+.services  .container {
+    width: 100%;
+    @extend %flex-space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+
+    &:hover .serviceBx {
+        filter: blur(10px);
+        transform: scale(.9);
+        opacity: .5;
+    }
+}
+
+.services .container .serviceBx {
+    position: relative;
+    background: $white;
+    width: 350px;height: 400px;
+    border-radius: 20px;
+    @extend %flex-center;
+    transition: 1s;
+
+    &:hover {
+        filter: blur(0px);
+        transform: scale(1.1);
+        opacity: 1;
+    }
+}
+
+.services .container .serviceBx img {
+    max-width: 100px;
+}
+
+.services .container .serviceBx h2 {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1;
+}
